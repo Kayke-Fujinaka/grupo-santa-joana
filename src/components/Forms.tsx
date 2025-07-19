@@ -235,16 +235,16 @@ const Forms = () => {
   };
 
   return (
-    <section className="relative py-16 px-4 overflow-hidden bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
+    <section className="relative py-16 px-4 overflow-hidden bg-gradient-to-br from-secondary-700/25 via-blue-700/25 to-primary-700/25">
       <div className="relative z-10 max-w-4xl mx-auto">
+        <div className="bg-white/95 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-xl border border-white/30">
         <div className="text-center mb-12">
-          <h2 className="text-3xl leading-tight font-bold text-gray-700 mb-4">
-            QUER PARTICIPAR? <br />
+          <h2 className="text-2xl leading-tight font-bold text-gray-700 mb-4">
+            QUER PARTICIPAR? <br className="block lg:hidden" />
             RESPONDA O FORMULÁRIO ABAIXO.
           </h2>
         </div>
 
-        <div className="bg-white/95 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-xl border border-white/30">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
             <div>
               <label className="block text-gray-800 font-semibold mb-3 text-sm uppercase tracking-wide">

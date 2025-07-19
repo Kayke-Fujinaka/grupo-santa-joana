@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <section className="relative h-80 overflow-hidden">
+    <section className="relative h-96 overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/assets/images/banner.png"
+          src="/assets/images/madrinhas.jpeg"
           alt="Mulheres grávidas em ambiente acolhedor"
           fill
           className="object-cover"
-          style={{ objectPosition: 'center 25%' }}
+          style={{ objectPosition: 'center 50%' }}
           priority
         />
         <div className="absolute inset-0 bg-white/20"></div>

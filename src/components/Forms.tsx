@@ -235,7 +235,7 @@ const Forms = () => {
   };
 
   return (
-    <section className="relative py-16 px-4 overflow-hidden bg-purple-100">
+    <section className="relative py-16 px-4 overflow-hidden bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl leading-tight font-bold text-gray-700 mb-4">
